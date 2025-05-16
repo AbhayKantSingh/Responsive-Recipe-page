@@ -1,0 +1,115 @@
+.attribution{ 
+font-size: 11px; text-align: center; }
+
+.attribution a {
+color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    gap: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    padding-bottom: 25px;
+}
+
+.image-omelette {
+    width: 550px;
+    height: 230px;
+    background-size: cover;
+    align-self: center;
+    background-image: url("image-omelette.jpeg");
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+
+}
+
+
+.horizontal {
+    color: rgba(192, 192, 192, 0.423);
+    width: 550px;
+}
+
+.nutrition {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.text{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.list {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.h2{
+    color: brown;
+}
+
+.para {
+    color: rgb(148, 133, 133);
+}
+
+
+.preparationTime {
+    background-color: rgba(255, 192, 203, 0.303);
+    display: flex;
+    width: 450px;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+}
+
+.para2{
+    font-size: 17px;
+    font-weight: bold;
+    color:  purple;
+    margin-left: -30px;
+    
+}
+
+li::marker {
+    color: brown;
+}
+
+.black{
+    color: rgb(106, 106, 106);
+    font-weight: bold;
+}
+
+.brown {
+    color: brown;
+    font-weight: 700;
+}
+
+@media (max-width : 600px) {
+    .card {
+        width: 100%;
+
+    }
+
+    .image-omelette {
+        width: 90%;
+    }
+
+    .preparationTime {
+        width: 70%;
+    }
+}
